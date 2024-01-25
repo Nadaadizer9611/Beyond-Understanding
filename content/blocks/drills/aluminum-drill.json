@@ -1,0 +1,27 @@
+{
+  "name": "Tiny Aluminum Drill",
+  "description": "a small step to start automating mining.",
+  "type": "Drill",
+  "size": 1,
+  "health": 340
+  "itemCapacity": 5,
+  "tier": 3,
+  "drillTime": 355,
+  "drawMineItem": false,
+  "consumes": {
+    "liquid": {
+      "liquid": "oil",
+      "amount": 0.009,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "requirements": [
+    {
+      "item": "aluminum",
+      "amount": 13
+    }
+  ],
+  "category": "production",
+  "research": "mechanical-drill"
+}
