@@ -7,11 +7,8 @@ You are a serpentine explorer, in one of the sectors, you find an old research b
 # content
 [1.0]
 
-factories: 3
-
-ores: 5
-
-miner: 2
-
+factories: 3\
+ores: 5\
+miner: 2\
 planet: 1
 
