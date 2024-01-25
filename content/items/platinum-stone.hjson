@@ -1,0 +1,15 @@
+name: "Platinum Stone"
+description: "A Rock stuck to a strange ore."
+
+hardness: 3
+radioactivity: 0.3
+cost: 0.1
+color: 2b343a42
+
+research: {
+parent: Titanium
+}
+hiddenOnPlanets: [
+  erekir,
+  serpulo
+]

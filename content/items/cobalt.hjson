@@ -1,0 +1,16 @@
+name: "Cobalt"
+description: "A powerful ammunition."
+
+hardness: 5
+cost: 3.5
+healthScaling: 0.4
+flammability: 1.8
+color: 2d57cc7e
+
+research: {
+parent: platinum
+}
+hiddenOnPlanets: [
+  erekir,
+  serpulo
+]

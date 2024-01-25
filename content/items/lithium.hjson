@@ -1,0 +1,17 @@
+name: "Lithium"
+description: "A basic material for some energy constructions."
+
+hardness: 2
+cost: 0.9
+explosiveness: 1.3
+healthScaling: 1.5
+flammability: 0.4
+color: f6cb8e7e
+
+research: {
+parent: copper
+}
+hiddenOnPlanets: [
+  erekir,
+  serpulo
+]

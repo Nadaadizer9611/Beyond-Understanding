@@ -1,0 +1,14 @@
+name: "Crystallized Metaglass"
+description: "Crystallized metaglass."
+
+hardness: 1.3
+cost: 0.3
+color: 98bae5
+
+research: {
+parent: crystallized-sand
+}
+hiddenOnPlanets: [
+  erekir,
+  serpulo
+]

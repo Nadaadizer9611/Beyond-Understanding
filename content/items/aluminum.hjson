@@ -1,0 +1,14 @@
+name:"Aluminum"
+description: "A basic material for most constructions."
+hardness: 1.7
+cost: 1.9
+healthScaling: 1.8
+color: 7a86a87e
+
+research: {
+parent: copper
+}
+hiddenOnPlanets: [
+  erekir,
+  serpulo
+]

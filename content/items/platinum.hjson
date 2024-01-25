@@ -1,0 +1,17 @@
+name: "Platinum"
+description: "A miner similar to titanium, but appears to be better than Titanium."
+
+hardness: 4
+cost: 1.8
+radioactivity: 1.8
+explosiveness: 0.4
+healthScaling: 1.8
+color: 8babc0da
+
+research: {
+parent: platinum-stone
+}
+hiddenOnPlanets: [
+  erekir,
+  serpulo
+]
