@@ -1,0 +1,15 @@
+name: Aluminum Bridge
+type: ItemBridge
+description: a long-range but slow bridge.
+category: distribution
+health: 100
+range: 13
+placeableLiquid: false
+speed: 0.5
+itemCapacity: 5
+
+requirements: [
+  copper/45
+  aluminum/45
+]
+research: bridge-conveyor
