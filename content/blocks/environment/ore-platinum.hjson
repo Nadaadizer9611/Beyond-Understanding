@@ -1,0 +1,4 @@
+type: OreBlock
+name: Platinum Ore
+itemDrop: platinum-stone
+wallOre: true

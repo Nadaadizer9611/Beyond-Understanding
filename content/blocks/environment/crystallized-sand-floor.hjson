@@ -1,0 +1,6 @@
+type: Floor
+name: Crystallized Sand
+description: a sand with small pieces of metaglass.
+itemDrop: crystallized-sand
+variants: 3
+  
