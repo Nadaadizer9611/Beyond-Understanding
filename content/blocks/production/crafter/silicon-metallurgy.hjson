@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: Silicon Metallurgy
+description: A metallurgy that produces a large amount of silicon, but takes a long time to make.
+size: 3
+
+ambientSound: smelter
+ambientSoundVolume: 0.12
+itemCapacity: 25
+craftTime: 290
+
+hasPower: true
+hasLiquids: false
+hasItems: true
+squareSprite: false
+
+consumes: {
+  power: 1.7,
+    items: {
+      items: [
+        crystallized-sand/8,
+        coal/5
+]}}
+
+outputItems: [
+silicon/5
+crystallized-metaglass/1
+]
+
+category: crafting
+research: exploration-core
+researchCostMultiplier: 1.3
+requirements: [
+  aluminum/45
+  titanium/20
+  copper/10
+]

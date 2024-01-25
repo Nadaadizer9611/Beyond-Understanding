@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Coal Centrifuge 
+description: A centrifuge that will produce coal from oil.
+size: 3
+itemCapacity: 10
+craftTime: 110
+hasItems: true
+hasLiquids: true
+hasPower: true
+squareSprite: false
+consumes: {
+  power: 1.2
+  liquid: {
+    liquid: oil
+    amount: 0.35
+  }
+}
+outputItems: [
+coal/3
+]
+category: crafting
+research: crystallized-metaglass-crusher
+researchCostMultiplier: 0.8
+requirements: [
+  aluminum/45
+  titanium/20
+  copper/5
+]

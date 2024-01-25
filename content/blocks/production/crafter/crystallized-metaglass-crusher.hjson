@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: Metaglass Crusher 
+description: A crusher that crushes crystallized sand and produces metaglass.
+size: 2
+itemCapacity: 18
+craftTime: 170
+
+hasPower: false
+hasLiquids: false
+hasItems: true
+squareSprite: false
+
+consumes: {
+  items: {
+    items: [
+      crystallized-sand/9
+    ]
+  }
+}
+outputItems: [
+crystallized-metaglass/3
+]
+
+category: crafting
+research: exploration-core
+researchCostMultiplier: 1.0
+requirements: [
+  aluminum/45
+  titanium/20
+  copper/10
+]
