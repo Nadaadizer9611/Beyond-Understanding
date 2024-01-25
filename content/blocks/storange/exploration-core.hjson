@@ -1,0 +1,23 @@
+type: CoreBlock
+name: "Exploration Core"
+description: "First iteration of Urunir core. Suited to survive the harsh conditions in Urunir."
+details: "These ores are suited for surviving these conditions, any other ores will NOT do."
+health: 500
+unitCapModifier: 3
+itemCapacity: 500
+unitType: alpha
+size: 2
+researchCostMultiplier: 0.05
+research: {
+parent: core-shard
+objectives: [
+{
+type: SectorComplete
+preset: frozenForest
+}
+]
+}
+requirements: [
+copper/100
+]
+category: effect
